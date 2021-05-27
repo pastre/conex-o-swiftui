@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D784334A265EB60100851E2D /* AulaTardeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7843349265EB60100851E2D /* AulaTardeApp.swift */; };
-		D784334C265EB60100851E2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784334B265EB60100851E2D /* ContentView.swift */; };
-		D784334E265EB60300851E2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D784334D265EB60300851E2D /* Assets.xcassets */; };
-		D7843351265EB60300851E2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7843350265EB60300851E2D /* Preview Assets.xcassets */; };
-		D7843359265EDD0900851E2D /* MusicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7843358265EDD0900851E2D /* MusicRow.swift */; };
+		D70E0857265FDDDD0029F71A /* RepiceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70E0856265FDDDD0029F71A /* RepiceRow.swift */; };
+		D70E0859265FDEE10029F71A /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70E0858265FDEE10029F71A /* RecipeList.swift */; };
+		D70E085B265FE2240029F71A /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70E085A265FE2240029F71A /* RecipeDetailView.swift */; };
+		D7315EBE265FB962004A3493 /* Day4ManhaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7315EBD265FB962004A3493 /* Day4ManhaApp.swift */; };
+		D7315EC0265FB962004A3493 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7315EBF265FB962004A3493 /* ContentView.swift */; };
+		D7315EC2265FB966004A3493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7315EC1265FB966004A3493 /* Assets.xcassets */; };
+		D7315EC5265FB966004A3493 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7315EC4265FB966004A3493 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D7843346265EB60100851E2D /* AulaTarde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AulaTarde.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7843349265EB60100851E2D /* AulaTardeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaTardeApp.swift; sourceTree = "<group>"; };
-		D784334B265EB60100851E2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D784334D265EB60300851E2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D7843350265EB60300851E2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D7843352265EB60300851E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7843358265EDD0900851E2D /* MusicRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRow.swift; sourceTree = "<group>"; };
+		D70E0856265FDDDD0029F71A /* RepiceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepiceRow.swift; sourceTree = "<group>"; };
+		D70E0858265FDEE10029F71A /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
+		D70E085A265FE2240029F71A /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		D7315EBA265FB962004A3493 /* Day4Manha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day4Manha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7315EBD265FB962004A3493 /* Day4ManhaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4ManhaApp.swift; sourceTree = "<group>"; };
+		D7315EBF265FB962004A3493 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D7315EC1265FB966004A3493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7315EC4265FB966004A3493 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7315EC6265FB966004A3493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D7843343265EB60000851E2D /* Frameworks */ = {
+		D7315EB7265FB962004A3493 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,39 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D784333D265EB60000851E2D = {
+		D7315EB1265FB962004A3493 = {
 			isa = PBXGroup;
 			children = (
-				D7843348265EB60100851E2D /* AulaTarde */,
-				D7843347265EB60100851E2D /* Products */,
+				D7315EBC265FB962004A3493 /* Day4Manha */,
+				D7315EBB265FB962004A3493 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D7843347265EB60100851E2D /* Products */ = {
+		D7315EBB265FB962004A3493 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D7843346265EB60100851E2D /* AulaTarde.app */,
+				D7315EBA265FB962004A3493 /* Day4Manha.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D7843348265EB60100851E2D /* AulaTarde */ = {
+		D7315EBC265FB962004A3493 /* Day4Manha */ = {
 			isa = PBXGroup;
 			children = (
-				D7843349265EB60100851E2D /* AulaTardeApp.swift */,
-				D784334B265EB60100851E2D /* ContentView.swift */,
-				D784334D265EB60300851E2D /* Assets.xcassets */,
-				D7843352265EB60300851E2D /* Info.plist */,
-				D784334F265EB60300851E2D /* Preview Content */,
-				D7843358265EDD0900851E2D /* MusicRow.swift */,
+				D7315EBD265FB962004A3493 /* Day4ManhaApp.swift */,
+				D7315EBF265FB962004A3493 /* ContentView.swift */,
+				D7315EC1265FB966004A3493 /* Assets.xcassets */,
+				D7315EC6265FB966004A3493 /* Info.plist */,
+				D7315EC3265FB966004A3493 /* Preview Content */,
+				D70E0856265FDDDD0029F71A /* RepiceRow.swift */,
+				D70E0858265FDEE10029F71A /* RecipeList.swift */,
+				D70E085A265FE2240029F71A /* RecipeDetailView.swift */,
 			);
-			path = AulaTarde;
+			path = Day4Manha;
 			sourceTree = "<group>";
 		};
-		D784334F265EB60300851E2D /* Preview Content */ = {
+		D7315EC3265FB966004A3493 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D7843350265EB60300851E2D /* Preview Assets.xcassets */,
+				D7315EC4265FB966004A3493 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -75,38 +81,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D7843345265EB60000851E2D /* AulaTarde */ = {
+		D7315EB9265FB962004A3493 /* Day4Manha */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7843355265EB60300851E2D /* Build configuration list for PBXNativeTarget "AulaTarde" */;
+			buildConfigurationList = D7315EC9265FB966004A3493 /* Build configuration list for PBXNativeTarget "Day4Manha" */;
 			buildPhases = (
-				D7843342265EB60000851E2D /* Sources */,
-				D7843343265EB60000851E2D /* Frameworks */,
-				D7843344265EB60000851E2D /* Resources */,
+				D7315EB6265FB962004A3493 /* Sources */,
+				D7315EB7265FB962004A3493 /* Frameworks */,
+				D7315EB8265FB962004A3493 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AulaTarde;
-			productName = AulaTarde;
-			productReference = D7843346265EB60100851E2D /* AulaTarde.app */;
+			name = Day4Manha;
+			productName = Day4Manha;
+			productReference = D7315EBA265FB962004A3493 /* Day4Manha.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D784333E265EB60000851E2D /* Project object */ = {
+		D7315EB2265FB962004A3493 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					D7843345265EB60000851E2D = {
+					D7315EB9265FB962004A3493 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = D7843341265EB60000851E2D /* Build configuration list for PBXProject "AulaTarde" */;
+			buildConfigurationList = D7315EB5265FB962004A3493 /* Build configuration list for PBXProject "Day4Manha" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,43 +120,45 @@
 				en,
 				Base,
 			);
-			mainGroup = D784333D265EB60000851E2D;
-			productRefGroup = D7843347265EB60100851E2D /* Products */;
+			mainGroup = D7315EB1265FB962004A3493;
+			productRefGroup = D7315EBB265FB962004A3493 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D7843345265EB60000851E2D /* AulaTarde */,
+				D7315EB9265FB962004A3493 /* Day4Manha */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D7843344265EB60000851E2D /* Resources */ = {
+		D7315EB8265FB962004A3493 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7843351265EB60300851E2D /* Preview Assets.xcassets in Resources */,
-				D784334E265EB60300851E2D /* Assets.xcassets in Resources */,
+				D7315EC5265FB966004A3493 /* Preview Assets.xcassets in Resources */,
+				D7315EC2265FB966004A3493 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D7843342265EB60000851E2D /* Sources */ = {
+		D7315EB6265FB962004A3493 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7843359265EDD0900851E2D /* MusicRow.swift in Sources */,
-				D784334C265EB60100851E2D /* ContentView.swift in Sources */,
-				D784334A265EB60100851E2D /* AulaTardeApp.swift in Sources */,
+				D7315EC0265FB962004A3493 /* ContentView.swift in Sources */,
+				D70E085B265FE2240029F71A /* RecipeDetailView.swift in Sources */,
+				D7315EBE265FB962004A3493 /* Day4ManhaApp.swift in Sources */,
+				D70E0859265FDEE10029F71A /* RecipeList.swift in Sources */,
+				D70E0857265FDDDD0029F71A /* RepiceRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D7843353265EB60300851E2D /* Debug */ = {
+		D7315EC7265FB966004A3493 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +219,7 @@
 			};
 			name = Debug;
 		};
-		D7843354265EB60300851E2D /* Release */ = {
+		D7315EC8265FB966004A3493 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,44 +274,44 @@
 			};
 			name = Release;
 		};
-		D7843356265EB60300851E2D /* Debug */ = {
+		D7315ECA265FB966004A3493 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"AulaTarde/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Day4Manha/Preview Content\"";
 				DEVELOPMENT_TEAM = QM43B7QRF9;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AulaTarde/Info.plist;
+				INFOPLIST_FILE = Day4Manha/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.pastre.AulaTarde;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.pastre.Day4Manha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D7843357265EB60300851E2D /* Release */ = {
+		D7315ECB265FB966004A3493 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"AulaTarde/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Day4Manha/Preview Content\"";
 				DEVELOPMENT_TEAM = QM43B7QRF9;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AulaTarde/Info.plist;
+				INFOPLIST_FILE = Day4Manha/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.pastre.AulaTarde;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.pastre.Day4Manha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,25 +321,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D7843341265EB60000851E2D /* Build configuration list for PBXProject "AulaTarde" */ = {
+		D7315EB5265FB962004A3493 /* Build configuration list for PBXProject "Day4Manha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7843353265EB60300851E2D /* Debug */,
-				D7843354265EB60300851E2D /* Release */,
+				D7315EC7265FB966004A3493 /* Debug */,
+				D7315EC8265FB966004A3493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7843355265EB60300851E2D /* Build configuration list for PBXNativeTarget "AulaTarde" */ = {
+		D7315EC9265FB966004A3493 /* Build configuration list for PBXNativeTarget "Day4Manha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7843356265EB60300851E2D /* Debug */,
-				D7843357265EB60300851E2D /* Release */,
+				D7315ECA265FB966004A3493 /* Debug */,
+				D7315ECB265FB966004A3493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D784333E265EB60000851E2D /* Project object */;
+	rootObject = D7315EB2265FB962004A3493 /* Project object */;
 }

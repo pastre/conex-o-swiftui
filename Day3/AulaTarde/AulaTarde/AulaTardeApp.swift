@@ -11,7 +11,12 @@ import SwiftUI
 struct AulaTardeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(mentores: [])
+            ContentView(musics: [
+                Music(
+                    artistName: "asdasd",
+                    name: "qweqewqe",
+                    imageName: "")
+            ])
         }
     }
 }
